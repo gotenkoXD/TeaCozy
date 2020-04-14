@@ -1,0 +1,190 @@
+html {
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+}
+
+body{
+	color: seashell;
+	background-color: black;
+}
+
+/*----Header---*/
+.header {
+	display: block;
+	height: 69px;
+	border-bottom: 1px solid seashell;
+	width: 100%;
+}
+
+#logo{
+	margin-left: 10px;
+	height: 50px;
+	padding-top: 5px;
+	float: left;
+}
+
+.header nav{
+	display: inline-block;
+	position: relative;
+	width: 100%;
+}
+
+#list {
+    display: inline-block;
+	float: right;
+	list-style-type: none;
+}
+
+.sites li{
+	width: 140px;
+	margin-left: 2px;
+	text-align: center;
+	display: inline;
+}
+
+.sites a {
+	padding:3px;
+	text-decoration: none;
+	color: seashell;
+}
+
+.sites li a:hover {
+  background-color: gray;
+  color: seashell;
+}
+
+/*-----Content------*/
+
+.mission{
+	display: block;
+	/*background-image: url("images/img-mission-background.jpg");*/
+    overflow: hidden;
+    height: 700px;
+
+}
+
+.mission img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  position: relative;
+
+}
+
+.mission h2{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.mission h4{
+	margin-bottom: 10px;
+}
+
+.misstxt{
+	text-align: center;
+	background-color: black;
+    width: 100%;
+    border-top:.7rem;
+	position: absolute;
+    top: 350px;
+}
+
+
+/*---Tea of the Month*/
+
+.totm {
+	display: block;
+	background-color: black;
+	width: 100%;
+	position: relative;
+	text-align: center;
+}
+
+/*---images---*/
+
+.gallery{
+	  text-align:center;
+}
+
+.container{
+	  height: 100%; 
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+}
+
+.container img{
+	display: block;
+	height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 200px;
+
+}
+
+.container h4{
+	margin-top: 10px;
+	text-align: center;
+}
+
+
+/*------locations------*/
+
+.location{
+	display: inline-table;
+    overflow: hidden;
+    background-image: url(images/img-locations-background.jpg);
+    height: 500px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+    left: 50px;
+}
+
+
+.location h2{
+	position: relative;
+	margin-bottom: 15px;
+    margin-top: 60px;
+}
+
+.location-boxes{
+	display: inline-block;
+	position: relative;
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    margin-left: 40px;
+    margin-right: 0px;
+    height: 300px;
+    line-height: 200%;
+}
+
+/*-----contact us------*/
+
+.contactus{
+    text-align: center;
+	background-color: black;
+    width: 100%;
+ 	position:relative;
+}
+
+footer {
+	font-size: .5rem;
+    opacity: .5;
+
+}
+
+
+
+
+
